@@ -17,4 +17,7 @@ describe("#leetspeak") do
   it('replaces every "i" in a string with a "1"') do
     expect(("I like dog").leetspeak()).to(eq("1 l1k3 d0g"))
   end
+  it('replaces every "s" in a string with a "5"') do
+    expect(("stop").leetspeak()).to(eq("570p"))
+  end
 end

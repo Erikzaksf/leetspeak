@@ -5,6 +5,8 @@ class String
     self.gsub!("o", "0")
     self.gsub!("i", "1")
     self.gsub!("I", "1")
+    self.gsub!("s", "5")
+    self.gsub!("S", "5")
     self
   end
 end
