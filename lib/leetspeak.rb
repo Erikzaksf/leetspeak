@@ -3,6 +3,8 @@ class String
     self.gsub!("e", "3")
     self.gsub!("t", "7")
     self.gsub!("o", "0")
+    self.gsub!("i", "1")
+    self.gsub!("I", "1")
     self
   end
 end
