@@ -2,7 +2,7 @@
 
 #### _An application to turn phrases into leetspeak, 9.5.2017_
 
-#### By _**Kristen Kulha and Erik Zakrzewski**_ 
+#### By _**Kristen Kulha and Erik Zakrzewski**_
 
 ## Description
 
@@ -28,21 +28,20 @@ _A method that will take a string and change it into Leetspeak_
 * _Replaces letters correctly in a string of words_
   _Example input: hi there_
   _Example output: h1 th3r3_
+* _It does NOT replace the first letter when it is an s_
+  * _Example input: sassafrass_
+  * _Example output: sa55afra55_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_There are no known bugs at this time_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Ruby, RSpec_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This software is licensed under the MIT license*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Kristen Kulha and Erik Zakrzewski_**
